@@ -14,7 +14,6 @@
 section {
     width: 1320px;
     margin: auto;
-    background-color: aliceblue;
     margin-bottom: 120px;
     border-radius: 15px;
 }
@@ -83,3 +82,50 @@ section {
 
 }
 
+/* Midnight Party Section Styles */
+
+.midnight{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+}
+
+.midnight-container{
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.midnight-content{
+    margin: 120px 0px;
+}
+
+.midnight-content h1{
+    color: white;
+    font-size: 65px;
+    font-family: merriweather;
+    width: 640px;
+}
+
+.midnight-content p{
+    color: white;
+    font-size: 18px;
+    font-family: inter;
+    width: 700px;
+    margin: 20px 0px;
+}
+
+.midnight-content button{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: inter;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.year{
+    padding-top: 50px;
+}
