@@ -15,7 +15,8 @@ section {
     width: 1320px;
     margin: auto;
     background-color: aliceblue;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+    border-radius: 15px;
 }
 
 /* Header Section Styles */
@@ -46,5 +47,39 @@ section {
     font-family: Merriweather;
     font-size: 70px;
     width: 630px;
+}
+
+/* Offer Section Styles */
+
+.offer{
+
+}
+
+.offer-container{
+    text-align: center;
+    font-family: inter;
+}
+
+.offer-container h1{
+    color: #FF0000;
+    font-size: 88px;
+    margin-bottom: 45px;
+}
+
+.offer-container p{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 15px;
+}
+
+.offer-container h2{
+    columns: #070211;
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+
+.offer-container img{
+
 }
 
