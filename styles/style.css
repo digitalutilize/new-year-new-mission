@@ -1,4 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
+/* body {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+} */
+
+section {
+    width: 1320px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+
+/* Header Section Styles */
+
+.header {
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.header-container {
+    background-color: rgba(0, 0, 0, 0.363);
+    text-align: center;
+    border-radius: 15px;
+    padding: 170px 0px;
+}
+
+.header-container p {
+    color: white;
+    font-family: Merriweather;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.header-container h1 {
+    display: inline-block;
+    color: white;
+    font-family: Merriweather;
+    font-size: 70px;
+    width: 630px;
+}
+
