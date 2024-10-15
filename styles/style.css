@@ -27,7 +27,8 @@ section {
 }
 
 .header-container {
-    background-color: rgba(0, 0, 0, 0.363);
+    /* background-color: rgba(0, 0, 0, 0.363); */
+    background-image: linear-gradient(rgb(0, 0, 0,1), rgba(0,0,0,0));
     text-align: center;
     border-radius: 15px;
     padding: 170px 0px;
@@ -90,7 +91,8 @@ section {
 }
 
 .midnight-container{
-    background-color: rgba(0, 0, 0, 0.363);
+    /* background-color: rgba(0, 0, 0, 0.363); */
+    background-image: linear-gradient(to right, rgb(0, 0, 0,1), rgba(0,0,0,0));
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -128,4 +130,40 @@ section {
 
 .year{
     padding-top: 50px;
+}
+
+/* Event Section Styles */
+
+.event{
+    font-family: inter;
+    padding: 100px 0px;
+    /* background-color: #FFE9E9; */
+    background-image: linear-gradient(#FFE9E9,white);
+}
+
+.event-container{
+    text-align: center;
+}
+
+.event-container p{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.event-container span{
+    color: #FF0000;
+}
+
+.event-container button{
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    margin: 20px 0px;
 }
