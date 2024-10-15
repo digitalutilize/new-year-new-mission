@@ -18,6 +18,16 @@ section {
     border-radius: 15px;
 }
 
+.button{
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
 /* Header Section Styles */
 
 .header {
@@ -120,12 +130,6 @@ section {
 .midnight-content button{
     color: white;
     background-color: black;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: inter;
-    padding: 10px 15px;
-    border: none;
-    outline: none;
 }
 
 .year{
@@ -159,11 +163,5 @@ section {
 .event-container button{
     background-color: #FF0000;
     color: white;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 10px 15px;
-    border: none;
-    outline: none;
     margin: 20px 0px;
 }
