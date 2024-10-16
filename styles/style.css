@@ -28,6 +28,12 @@ section {
     outline: none;
 }
 
+.subcontent{
+    font-family: inter;
+    font-size: 24px;
+    font-weight: medium;
+}
+
 /* Header Section Styles */
 
 .header {
@@ -164,4 +170,64 @@ section {
     background-color: #FF0000;
     color: white;
     margin: 20px 0px;
+}
+
+/* Best offer section styles */
+
+.bestoffer-container{
+    font-family: inter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bestoffer-content{
+
+}
+
+.bestoffer-content span{
+    color: #FF0000;
+}
+
+.bestoffer-content h1{
+    font-family: merriweather;
+    font-size: 48px;
+    margin: 20px 0px;
+
+}
+
+.bestoffer-content p{
+    font-size: 20px;
+    width: 390px;
+    color: #070211;
+}
+
+.bestoffer-img{
+
+}
+
+.bestoffer-img img{
+    border-radius: 50%;
+    border: 25px solid white;
+    outline: 15px solid red;
+}
+
+.bestoffer-year{
+
+}
+
+.bestoffer-year h1{
+    font-size: 48px;
+    color: #FF0000;
+}
+
+.bestoffer-year p{
+    font-size: 20px;
+    color: #070211;
+    width: 270px;
+    margin: 20px 0px;
+}
+
+.bestoffer-year img{
+
 }
