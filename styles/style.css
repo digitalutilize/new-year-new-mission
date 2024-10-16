@@ -231,3 +231,35 @@ section {
 .bestoffer-year img{
 
 }
+
+/* Gallery section styles */
+
+.gallery{
+    font-family: inter;
+}
+
+.gallery-container{
+
+}
+
+.gallery-container span{
+    color: #FF0000;
+}
+
+.gallery-container h1{
+    font-family: merriweather;
+    font-size: 48px;
+    margin: 20px 0px;
+}
+
+.gallery-container p{
+    color: #070211;
+    font-size: 20px;
+    width: 890px;
+    margin-bottom: 30px;
+}
+
+.gallery-image .img{
+    margin: 0px 5px 5px 0px;
+}
+
