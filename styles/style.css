@@ -262,6 +262,11 @@ section {
     margin: 0px 5px 5px 0px;
 }
 
+.gallery-image img:hover{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
 /* Newsletter Section Styles */
 
 .newsletter{
@@ -370,4 +375,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.copyright p:hover{
+    text-decoration: underline;
 }
