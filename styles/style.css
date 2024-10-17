@@ -231,6 +231,67 @@ section {
 
 }
 
+/* Holiday section styles */
+
+.holiday{
+
+}
+
+.holiday-container{
+
+}
+
+.holiday-content{
+    text-align: center;
+}
+
+.holiday-content > p{
+    font-size: 20px;
+}
+
+.holiday-content h1{
+    font-family: merriweather;
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+.holiday-content h1 span{
+    color:#FF0000
+}
+
+.holiday-content p{
+    width: 1000px;
+    margin: auto;
+}
+
+.holidaybanner{
+    display: flex;
+    align-items: center;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 20px;
+}
+
+.giftbox{
+    
+}
+
+.discount{
+    position: relative;
+}
+
+.dis{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -65px;
+}
+
+.girl{
+    margin-bottom: 220px;
+    margin-left: 94px;
+}
+
 /* Gallery section styles */
 
 .gallery{
